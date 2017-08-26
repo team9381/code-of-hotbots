@@ -16,7 +16,5 @@ alicorn.shard("BasicDrive")
         
         // Set the motor power to the controller's axis
         sdk.set("leftFront", left); 
-        sdk.set("leftBack", left); 
         sdk.set("rightFront", right); 
-        sdk.set("rightBack", right); 
     });
